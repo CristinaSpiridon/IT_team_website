@@ -138,7 +138,7 @@ img.dash {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-bottom: 100px;
+  margin-bottom: 223px;
   margin-top: 94px;
 }
 
@@ -358,11 +358,10 @@ address a:hover {
 
 .about-icons {
   display: flex;
-  width: 60px;
-  height: 70px;
+  padding: 2px;
   justify-content: center;
   align-items: center;
-  margin-left: 100px;
+  align-content: space-between;
 }
 
 .icon-about-svg {
