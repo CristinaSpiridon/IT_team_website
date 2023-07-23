@@ -67,7 +67,9 @@
       </nav>
       <div class="banner">
         <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-        <button class="main-btn" type="button">Request our service</button>
+        <button data-modal-open class="main-btn" type="button">
+          Request our service
+        </button>
       </div>
     </header>
     <main>
@@ -139,28 +141,33 @@
       <section>
         <div class="about-tasks">
           <h2 class="section-title">What we do</h2>
-          <ul>
-            <li>
-              <img
-                src="./images/tablet-coding.jpg"
-                width="370"
-                alt="What we do photo"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/app-coding.jpg"
-                width="370"
-                alt="What we do photo"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/colors.jpg"
-                width="370"
-                alt="What we do photo"
-              />
-            </li>
+          <ul class="about-tasks-container">
+            <div class="img-container-what-we-do">
+              <li>
+                <img src="./images/tablet-coding.jpg" alt="What we do photo" />
+                <div class="text-overlay-what-we-do">
+                  <p>DESKTOP APPS</p>
+                </div>
+              </li>
+            </div>
+
+            <div class="img-container-what-we-do">
+              <li>
+                <img src="./images/app-coding.jpg" alt="What we do photo" />
+                <div class="text-overlay-what-we-do">
+                  <p>Mobile APPS</p>
+                </div>
+              </li>
+            </div>
+
+            <div class="img-container-what-we-do">
+              <li>
+                <img src="./images/colors.jpg" alt="What we do photo" />
+                <div class="text-overlay-what-we-do">
+                  <p>DESIGN SOLUTIONS</p>
+                </div>
+              </li>
+            </div>
           </ul>
         </div>
       </section>
@@ -428,5 +435,14 @@
         </address>
       </div>
     </footer>
+
+    <div class="modal is-hidden" data-modal>
+      <div class="modal-content">
+        <button class="close-btn" data-modal-close>&times;</button>
+        Continutul modalului
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
