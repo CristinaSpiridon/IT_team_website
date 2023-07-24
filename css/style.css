@@ -15,6 +15,8 @@ ul li {
 
 a {
   text-decoration: none;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 250ms;
 }
 
 .primary-color {
@@ -77,6 +79,8 @@ img.dash {
 
 .nav-menu-links .nav-items:hover {
   border-bottom: #2196f3 4px solid;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 250ms;
 }
 
 .item1 {
@@ -87,6 +91,8 @@ img.dash {
 
 .item1:hover {
   color: #2196f3;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 250ms;
 }
 
 .item2 {
@@ -97,6 +103,8 @@ img.dash {
 
 .item2:hover {
   color: #2196f3;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 250ms;
 }
 
 .banner {
@@ -129,6 +137,8 @@ img.dash {
 .main-btn:hover {
   opacity: 0.9;
   cursor: pointer;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 250ms;
 }
 
 .about-description {
@@ -258,6 +268,8 @@ address a {
 
 address a:hover {
   color: #2196f3;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 250ms;
 }
 
 /* adding portfolio page styles */
@@ -300,6 +312,8 @@ address a:hover {
   background-color: #2196f3;
   color: #fff;
   cursor: pointer;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 250ms;
 }
 
 .portfolio-column-item {
@@ -354,6 +368,8 @@ address a:hover {
 .social-icons .icon-background:hover {
   background-color: #2196f3;
   color: white;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 250ms;
 }
 
 .about-icons {
@@ -382,6 +398,8 @@ address a:hover {
 
 .icon:hover {
   color: #ffffff;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 250ms;
 }
 
 .nav-contact-icon1 {
@@ -429,6 +447,8 @@ address a:hover {
 
 .footer-social-item-container:hover {
   background: rgba(33, 150, 243, 1);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 250ms;
 }
 
 .footer-social-links-container {
@@ -490,10 +510,14 @@ address a:hover {
 
 .icon-regular-background:hover {
   border-color: #2196f3;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 250ms;
 }
 
 .icon-regular:hover {
   color: #2196f3;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 250ms;
 }
 
 .modal {
@@ -572,6 +596,8 @@ address a:hover {
   cursor: pointer;
   text-align: center;
   opacity: 0.8;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 250ms;
 }
 
 .about-tasks-container {
