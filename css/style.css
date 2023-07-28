@@ -89,10 +89,31 @@ img.dash {
   font-weight: bold;
 }
 
+.item1:after {
+  content: "";
+  position: absolute;
+  background-color: #2196f3;
+  height: 4px;
+  border-radius: 2px;
+  width: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.item1:hover,
+.item1:focus,
+.item1.current {
+  color: #2196f3;
+}
+
 .item1:hover {
   color: #2196f3;
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 250ms;
+}
+
+.item1.current:after {
+  width: 100%;
 }
 
 .item2 {
@@ -529,6 +550,8 @@ address a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: auto;
 }
 
 .modal-content {
@@ -542,6 +565,7 @@ address a:hover {
 
 .is-hidden {
   visibility: hidden;
+  transform: scale(1.1);
 }
 
 .close-btn {
