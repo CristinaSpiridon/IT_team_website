@@ -89,15 +89,15 @@ img.dash {
   font-weight: bold;
 }
 
-.item1:after {
+.item1.current:after {
   content: "";
   position: absolute;
   background-color: #2196f3;
   height: 4px;
   border-radius: 2px;
-  width: 0;
-  left: 0;
-  bottom: 0;
+  left: 286px;
+  bottom: 656px;
+  width: 3%;
 }
 
 .item1:hover,
@@ -110,10 +110,6 @@ img.dash {
   color: #2196f3;
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 250ms;
-}
-
-.item1.current:after {
-  width: 100%;
 }
 
 .item2 {
